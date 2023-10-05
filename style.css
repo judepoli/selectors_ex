@@ -1,0 +1,40 @@
+p{
+	color: royalblue;
+	font-size: 25px;
+
+}
+
+#heading_style{
+	font-size: 45px;
+	color: blueviolet;
+}
+
+#rotated_text_90{
+	transform: rotate(90deg);
+	padding: 120px;
+	text-align: center;
+}
+
+.big_text{
+	font-size: 200px;
+	color: orangered;
+}
+
+.big_text_roto{
+	font-size: 200px;
+	color: orangered;
+	transform: rotate(180deg);
+	margin: 10px;
+}
+
+h1, p{
+	text-align: center;
+}
+
+p::first-letter{
+	font-size: 80px;
+}
+
+div > p{
+	color: lightcoral;
+}
